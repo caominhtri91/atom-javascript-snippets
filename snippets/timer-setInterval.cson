@@ -1,8 +1,8 @@
-".source.js, .source.jsx, .source.ts, .source.js-semantic":
+".source.js, .source.jsx, .source.ts":
   "setInterval":
     "prefix": "si"
     "body": """
-    setInterval(function() {
+    setInterval(() => {
     \t${0:// body...}
     }, ${1:delay});
     """

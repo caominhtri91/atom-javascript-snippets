@@ -1,8 +1,8 @@
-".source.js, .source.jsx, .source.ts, .source.js-semantic":
+".source.js, .source.jsx, .source.ts":
   "function as a property of an object":
     "prefix": "ofn"
     "body": """
-    ${1:functionName}: function(${2:arguments}) {
+    ${1:functionName}: (${2:arguments}) => {
     \t${3:// body...}
     }
     """

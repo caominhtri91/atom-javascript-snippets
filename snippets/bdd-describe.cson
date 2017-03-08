@@ -1,8 +1,8 @@
-".source.js, .source.jsx, .source.ts, .source.js-semantic":
+".source.js, .source.jsx, .source.ts":
   "describe":
     "prefix": "desc"
     "body": """
-    describe('${1:description}', function() {
+    describe('${1:description}', () => {
     \t${0:// body...}
     });
     """

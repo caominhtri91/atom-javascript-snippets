@@ -1,8 +1,8 @@
-".source.js, .source.jsx, .source.ts, .source.js-semantic":
+".source.js, .source.jsx, .source.ts":
   "it asynchronous":
     "prefix": "ita"
     "body": """
-    it('${1:description}', function(done) {
+    it('${1:description}', (done) => {
     \t${0:// body...}
     });
     """
